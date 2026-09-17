@@ -1,0 +1,13 @@
+.build/
+.swiftpm/
+.DS_Store
+*.swp
+handover/
+patches/
+discarded/
+*.log
+*.mobileconfig
+*.ovpn
+*.p12
+*.pem
+control-state.json
