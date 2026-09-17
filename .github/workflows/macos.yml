@@ -8,7 +8,7 @@ jobs:
   build-and-check:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Core checks
         run: swift run StayConnectedCoreChecks
       - name: Release app bundle
